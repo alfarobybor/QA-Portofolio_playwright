@@ -3,7 +3,6 @@ const { validUser } = require('../data/LoginData');
 const { products, TOTAL_PRODUCTS } = require('../data/products');
 
 test.describe('Inventory', () => {
-  // Every test starts logged in on the inventory page
   test.beforeEach(async ({ loginPage }) => {
     await loginPage.open();
     await loginPage.login(validUser);

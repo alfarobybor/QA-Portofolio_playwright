@@ -1,5 +1,5 @@
 const { test, expect } = require('../objects/Index');
-const { validUser, loginErrorCases } = require('../data/loginData');
+const { validUser, loginErrorCases } = require('../data/LoginData');
 
 test.describe('Login', () => {
   test.beforeEach(async ({ loginPage }) => {
